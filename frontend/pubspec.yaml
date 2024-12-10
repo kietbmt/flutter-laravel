@@ -1,0 +1,53 @@
+name: shopping
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  flutter_riverpod: ^2.0.0
+  flutter_secure_storage: ^6.0.0
+  bottom_navy_bar: ^6.1.0  
+  provider: ^6.0.0
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.3.2
+  figma_squircle: ^0.5.3
+  dots_indicator: ^3.0.0
+  flutter_svg: ^2.0.10+1
+  floating_bottom_navigation_bar: ^1.5.2
+  carousel_slider: ^5.0.0
+  flutter_rating_bar: ^4.0.1
+  dotted_line: ^3.2.2
+  country_state_city_picker: ^1.2.8
+  syncfusion_flutter_sliders: ^26.2.11
+  get: ^4.6.6
+  fuzzy: ^0.5.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+
+  fonts:
+    - family: FontsFree-Net-SFCompactText
+      fonts:
+        - asset: fonts/FontsFree-Net-SFCompactText-Light.ttf
+        - asset: fonts/FontsFree-Net-SFCompactText-Bold.ttf
+        - asset: fonts/FontsFree-Net-SFCompactText-Medium.ttf
+        - asset: fonts/FontsFree-Net-SFCompactText-Regular.ttf
+        - asset: fonts/FontsFree-Net-SFCompactText-SemiBold.ttf
+
+flutter_intl:
+  enabled: true
